@@ -1,7 +1,7 @@
 name: AliReza
 type: theme
 description: 'Personal Theme for AliReza Rouhani.ir'
-core_version_requirement: ^9
+core_version_requirement: 9.x
 libraries:
   - alireza/global
 base theme: classy
