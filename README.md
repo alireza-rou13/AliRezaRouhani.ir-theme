@@ -1,2 +1,2 @@
 # AliRezaRouhani.ir
-this is repo for my personal brand theme
+this repo is for my personal brand theme
