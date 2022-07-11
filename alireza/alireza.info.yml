@@ -1,0 +1,12 @@
+name: AliReza
+type: theme
+description: 'Personal Theme for AliReza Rouhani.ir'
+core_version_requirement: ^9
+libraries:
+  - alireza/global
+base theme: classy
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
