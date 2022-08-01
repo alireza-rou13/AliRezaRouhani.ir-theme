@@ -2,6 +2,7 @@ name: AliReza
 type: theme
 description: 'Personal Theme for AliReza Rouhani.ir'
 core_version_requirement: 9.x
+screenshot: alireza.png
 libraries:
   - alireza/global
 base theme: classy
