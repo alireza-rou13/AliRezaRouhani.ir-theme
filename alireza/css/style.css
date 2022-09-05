@@ -4475,9 +4475,9 @@ input[type=number] {
 	bottom: 0px;
 	height: 70px;
 }
-.iknow_tm_extra_demo_2 .iknow_tm_topbar{
+/* .iknow_tm_extra_demo_2 .iknow_tm_topbar{
 	position: fixed;
-}
+} */
 .iknow_tm_extra_demo_2 .iknow_tm_topbar .topbar_inner{
 	padding-top: 0px;
 	height: 110px;
