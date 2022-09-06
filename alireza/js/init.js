@@ -203,31 +203,31 @@ function iknow_tm_portfolio_popup(){
 // -------------  SERVICE POPUP  -------------------
 // -------------------------------------------------
 
-function iknow_tm_service_popup(){
+// function iknow_tm_service_popup(){
 	
-	"use strict";
+// 	"use strict";
 	
-	var modalBox		= jQuery('.iknow_tm_modalbox');
-	var button			= jQuery('.iknow_tm_services .iknow_tm_full_link');
-	var closePopup		= modalBox.find('.close');
+// 	var modalBox		= jQuery('.iknow_tm_modalbox');
+// 	var button			= jQuery('.iknow_tm_services .iknow_tm_full_link');
+// 	var closePopup		= modalBox.find('.close');
 	
-	button.on('click',function(){
-		var element = jQuery(this);
-		var parent  = element.closest('.list_inner');
-		var title	= parent.find('.title').text();
-		var content = parent.find('.hidden_content').html();
-		modalBox.addClass('opened');
-		modalBox.find('.description_wrap').html(content);
-		iknow_tm_data_images();
-		modalBox.find('.service_informations .image').after('<div class="title"><h3>'+title+'</h3></div>');
-		return false;
-	});
-	closePopup.on('click',function(){
-		modalBox.removeClass('opened');
-		modalBox.find('.description_wrap').html('');
-		return false;
-	});
-}
+// 	button.on('click',function(){
+// 		var element = jQuery(this);
+// 		var parent  = element.closest('.list_inner');
+// 		var title	= parent.find('.title').text();
+// 		var content = parent.find('.hidden_content').html();
+// 		modalBox.addClass('opened');
+// 		modalBox.find('.description_wrap').html(content);
+// 		iknow_tm_data_images();
+// 		modalBox.find('.service_informations .image').after('<div class="title"><h3>'+title+'</h3></div>');
+// 		return false;
+// 	});
+// 	closePopup.on('click',function(){
+// 		modalBox.removeClass('opened');
+// 		modalBox.find('.description_wrap').html('');
+// 		return false;
+// 	});
+// }
 
 // -------------------------------------------------
 // ----------------  NEWS POPUP  -------------------
