@@ -68,3 +68,8 @@
       <js-bottom-placeholder token="{{ placeholder_token }}">
   </body>
 </html>
+{% if html_attributes['lang'] == 'fa' %}
+
+  {{ attach_library('alireza/fa') }}
+
+{% endif %}
