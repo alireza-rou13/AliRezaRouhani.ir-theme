@@ -1,0 +1,16 @@
+@font-face {
+	font-family: IRANYekanX;
+	font-style: normal;
+	font-weight: bold;
+	src: url('font/woff/IRANYekanX-Bold.woff') format('woff'),   
+	url('font/woff2/IRANYekanX-Bold.woff2') format('woff2');	 
+}
+body {
+	font-family: IRANYekanX  !important;
+	direction: rtl;
+	background-color: #cdcdcd;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: IRANYekanX !important;
+}
