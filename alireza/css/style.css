@@ -4593,6 +4593,7 @@ input[type=number] {
 	padding: 0px 2vw;
 	display: flex;
 	justify-content: flex-end;
+	direction: ltr;
 }
 .iknow_tm_mainpart_new_2 .social_list ul{
 	margin: 0px;
@@ -4619,6 +4620,7 @@ input[type=number] {
     right: 0;
     padding: 0 2vw;
     max-width: 15%;
+	direction: ltr;
 }
 .iknow_tm_mainpart_new_2 .main_menu ul{
 	margin: 0px;
