@@ -15,7 +15,7 @@ jQuery(document).ready(function(){
 	iknow_tm_menu_width();
 	iknow_tm_portfolio();
 	iknow_tm_portfolio_popup();
-	iknow_tm_service_popup();
+	// iknow_tm_service_popup();
 	iknow_tm_news_popup();
 	iknow_tm_cursor();
 	iknow_tm_imgtosvg();
