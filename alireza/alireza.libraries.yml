@@ -16,3 +16,15 @@ fa:
   css:
     theme:
       css/fa.css: {}
+
+
+highlight:
+  version: 11.6.0
+  header: true
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js: { type: external, minified: true }
+    https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js: { type: external, minified: true }
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/androidstudio.min.css: { type: external, minified: true }
+      https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css: { type: external, minified: true }
