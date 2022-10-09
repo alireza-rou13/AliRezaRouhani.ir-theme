@@ -3,7 +3,7 @@
  * Author: Marketify
  * This file is made for CURRENT TEMPLATE
 */
-
+(function ($) {
 jQuery(document).ready(function(){
 
 	"use strict";
@@ -1176,3 +1176,5 @@ function iknow_tm_menu_image_animation(){
 		}
 	});
 }
+
+})(jQuery);
