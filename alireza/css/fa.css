@@ -1,6 +1,13 @@
 @font-face {
 	font-family: IRANYekanX;
 	font-style: normal;
+	font-weight: normal;
+	src: url('font/woff/IRANYekanX-Regular.woff') format('woff'),   
+	url('font/woff2/IRANYekanX-Regular.woff2') format('woff2');	
+}
+@font-face {
+	font-family: IRANYekanX;
+	font-style: normal;
 	font-weight: bold;
 	src: url('font/woff/IRANYekanX-Bold.woff') format('woff'),   
 	url('font/woff2/IRANYekanX-Bold.woff2') format('woff2');	 
